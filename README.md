@@ -7,12 +7,12 @@
 1. 复制 `ETable` 文件夹及内容到自己项目中。
 
 2. 在要使用的页面上引入组件（路径根据自己情况修改）：
-```
+```js
 import ETable from "@/components/ETable";
 ```
 
 3. 在 页面的 `components` 中注册组件：
-```
+```jd
 ... 
 components: {
     ...
@@ -22,7 +22,7 @@ components: {
 ```
 
 4. 在 `slot="noDataTem"` 插槽中添加自己的模板，其他方法和 `Table` 组件相同，并且兼容原有的 `no-data-text` 属性，只是优先级比插槽低：
-```
+```html
 <ETable :columns="columns" :data="data">
     <template slot="noDataTem">
         <div style="margin:60px">
@@ -40,6 +40,6 @@ components: {
 旧版本iView需要修改 `ETable/index.js` 文件：
 ```js
 import { Table } from 'view-design';
-# 改为
+// 改为
 import { Table } from 'iview';
 ```
