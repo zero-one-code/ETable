@@ -12,7 +12,7 @@ import ETable from "@/components/ETable";
 ```
 
 3. 在 页面的 `components` 中注册组件：
-```jd
+```js
 ... 
 components: {
     ...
@@ -22,7 +22,7 @@ components: {
 ```
 
 4. 在 `slot="noDataTem"` 插槽中添加自己的模板，其他方法和 `Table` 组件相同，并且兼容原有的 `no-data-text` 属性，只是优先级比插槽低：
-```html
+```vue
 <ETable :columns="columns" :data="data">
     <template slot="noDataTem">
         <div style="margin:60px">
