@@ -1,4 +1,4 @@
-# iView Table组件空数据时可用slot模板
+# 扩展iView Table组件，空数据时可用slot插槽
 
 > ETable 全称为 Extend-Table
 
