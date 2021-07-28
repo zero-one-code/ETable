@@ -7,12 +7,12 @@
 1. 复制 `ETable` 文件夹及内容到自己项目中。
 
 2. 在要使用的页面上引入组件（路径根据自己情况修改）：
-```vue
+```js
 import ETable from "@/components/ETable";
 ```
 
 3. 在 页面的 `components` 中注册组件：
-```vue
+```js
 ... 
 components: {
     ...
