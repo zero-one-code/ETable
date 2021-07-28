@@ -38,8 +38,8 @@ components: {
 
 ## 闭坑
 旧版本iView需要修改 `ETable/index.js` 文件：
-```
+```js
 import { Table } from 'view-design';
-// 改为
+# 改为
 import { Table } from 'iview';
 ```
