@@ -11,7 +11,7 @@
 import ETable from "@/components/ETable";
 ```
 
-3. 在 页面的 `components` 中注册组件：
+3. 在页面的 `components` 中注册组件：
 ```js
 ... 
 components: {
