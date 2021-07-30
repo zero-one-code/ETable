@@ -1,6 +1,6 @@
-# 扩展iView Table组件，空数据时可用slot插槽
+# ETable
 
-> ETable 全称为 Extend-Table
+> 扩展 iView Table 组件，空数据时可用 slot 插槽。ETable 全称为 Extend-Table
 
 ## 使用方法
 
