@@ -34,7 +34,7 @@ components: {
 ```
 
 5. 效果图：
-![Image text](https://raw.githubusercontent.com/zeronexxx/ETable/master/images/example.jpg)
+<img src="https://raw.githubusercontent.com/zeronexxx/ETable/master/images/example.jpg"/>
 
 ## 闭坑
 旧版本iView需要修改 `ETable/index.js` 文件：
