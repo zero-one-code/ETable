@@ -23,14 +23,18 @@ components: {
 
 4. 在 `slot="noDataTem"` 插槽中添加自己的模板，其他方法和 `Table` 组件相同，并且兼容原有的 `no-data-text` 属性，只是优先级比插槽低：
 ```vue
-<ETable :columns="columns" :data="data">
-    <template slot="noDataTem">
-        <div style="margin:60px">
-            <div><Icon type="ios-filing-outline" size="50"/></div>
-            <p>暂无数据<a href="#">点击添加</a> </p>
-        </div>
-    </template>
-</ETable>
+<template>
+    ... 
+    <ETable :columns="columns" :data="data">
+        <template slot="noDataTem">
+            <div style="margin:60px">
+                <div><Icon type="ios-filing-outline" size="50"/></div>
+                <p>暂无数据<a href="#">点击添加</a> </p>
+            </div>
+        </template>
+    </ETable>
+    ... 
+</template>
 ```
 
 5. 效果图：
